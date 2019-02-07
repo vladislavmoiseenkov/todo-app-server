@@ -14,6 +14,7 @@ module.exports = {
       'js': 'never',
       'vue': 'never'
     }],
+    "arrow-body-style": ["error", "always"],
   },
   parserOptions: {
     parser: 'babel-eslint',

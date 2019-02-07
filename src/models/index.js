@@ -13,6 +13,7 @@ const sequelize = new Sequelize(
 );
 
 fs.readdirSync(__dirname)
+// eslint-disable-next-line
   .filter(file => file !== 'index.js')
   .forEach((file) => {
     const model = sequelize.import(path.join(__dirname, file));
